@@ -1,6 +1,6 @@
 # wangStyle
 
-WangStyle 是一款极简的 `typecho` 后台美化插件。
+> WangStyle 是一款极简的 `typecho` 后台美化插件。
 
 ### 插件特点
 
@@ -8,7 +8,7 @@ WangStyle 是一款极简的 `typecho` 后台美化插件。
 2. 支持不同级别的用户登录显示不同的菜单
 3. 自动识别其他插件的设置添加到菜单
 4. 即插即用、不修改程序文件
-5. 适配 Joe 主题V6以上的扩展版本，[https://github.com/dinphy/Joe](https://github.com/dinphy/Joe)
+5. 适配 Joe 主题V6以上的扩展版本，[Joe扩版](https://github.com/dinphy/Joe)
 6. 响应式布局，适配后台每一个页面
 7. 后台登陆界面美化，已集成随机图API
 
