@@ -1,0 +1,725 @@
+@charset "utf-8";
+html[ws-day-night='ws-day-night'] body,
+html[ws-day-night='ws-day-night'] .user-nav li ul,
+html[ws-day-night='ws-day-night'] .wsbottom ul li a:hover,
+html[ws-day-night='ws-day-night'] .category-option ul,
+html[ws-day-night='ws-day-night'] .typecho-option-tabs li.current a,
+html[ws-day-night='ws-day-night'] .typecho-option-tabs li.active a,
+html[ws-day-night='ws-day-night'] .typecho-option-tabs li a:hover,
+html[ws-day-night='ws-day-night'] .typecho-option-tabs li a:hover,
+html[ws-day-night='ws-day-night'] .wmd-button-row li:hover,
+html[ws-day-night='ws-day-night'] .typecho-list-table tbody tr:hover td,
+html[ws-day-night='ws-day-night'] .typecho-page-main ul.tag-list,
+html[ws-day-night='ws-day-night'] .typecho-pager li.current a,
+html[ws-day-night='ws-day-night'] #typecho-welcome,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div,
+html[ws-day-night='ws-day-night'] .primary:hover,
+html[ws-day-night='ws-day-night'] .typecho-edit-theme .current,
+html[ws-day-night='ws-day-night'] .typecho-post-area #slug,
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-aside,
+html[ws-day-night='ws-day-night'] .typecho-list-table tbody tr.checked td,
+html[ws-day-night='ws-day-night'] .joe_config__aside,
+html[ws-day-night='ws-day-night'] .cm-container,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools .cm-tools-item:hover,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools .cm-tools-item.active,
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li .typecho-label {
+	background: #222;
+	color: #bbb;
+	box-shadow: none;
+}
+html[ws-day-night='ws-day-night'] .typecho-page-main,
+html[ws-day-night='ws-day-night'] .typecho-head-nav .operate,
+html[ws-day-night='ws-day-night'] #typecho-nav-list,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools,
+html[ws-day-night='ws-day-night'] .user-nav li ul li a:hover,
+html[ws-day-night='ws-day-night'] #custom-field,
+html[ws-day-night='ws-day-night'] .typecho-table-wrap,
+html[ws-day-night='ws-day-night'] .typecho-page-title h2 a,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-calendar a,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-current,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-close,
+html[ws-day-night='ws-day-night'] .typecho-theme-list tbody tr.current td,
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-aside .j-setting-tab li:hover,
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-setting-notice,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .typecho-option,
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-setting-notice ol,
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-setting-notice ul,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools__dropdown-item:hover,
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-resize::before,
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-preview,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-footer--cancle,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .lists-item:hover,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .lists::-webkit-scrollbar-thumb,
+html[ws-day-night='ws-day-night'] .user-info,
+html[ws-day-night='ws-day-night'] .joe_config__notice,
+html[ws-day-night='ws-day-night'] .joe_config > form,
+html[ws-day-night='ws-day-night'] .joe_config__aside .tabs .item:hover,
+html[ws-day-night='ws-day-night'] .joe_config > form .typecho-option {
+	background: #333;
+	color: #bbb;
+	box-shadow: none;
+}
+html[ws-day-night='ws-day-night'] a,
+html[ws-day-night='ws-day-night'] .typecho-head-nav .operate a,
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-wrap .cm-scroller .cm-content,
+html[ws-day-night='ws-day-night'] #typecho-nav-list a {
+	color: #bbb;
+}
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-wrap .cm-scroller ::selection {
+    background-color: rgba(221, 240, 255, 0.2);
+}
+html[ws-day-night='ws-day-night'] .cm-preview-content h1,
+html[ws-day-night='ws-day-night'] .cm-preview-content h2,
+html[ws-day-night='ws-day-night'] .cm-preview-content h3,
+html[ws-day-night='ws-day-night'] .cm-preview-content h4,
+html[ws-day-night='ws-day-night'] .cm-preview-content h5,
+html[ws-day-night='ws-day-night'] .cm-preview-content h6,
+html[ws-day-night='ws-day-night'] .typecho-head-nav .operate a:hover {
+    color: #467b96;
+}
+html[ws-day-night='ws-day-night'] #wstyle .wsmain,
+html[ws-day-night='ws-day-night'] .category-option ul,
+html[ws-day-night='ws-day-night'] .typecho-option-tabs a,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li select,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li textarea,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li input[type='text'],
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li,
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li textarea,
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li input[type='text'],
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li select {
+	border: 1px solid #444;
+}
+html[ws-day-night='ws-day-night'] .success,
+html[ws-day-night='ws-day-night'] a.balloon-button,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-today a,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-today a:hover,
+html[ws-day-night='ws-day-night'] .btn,
+html[ws-day-night='ws-day-night'] .dropdown-menu a:hover,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools__dropdown,
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools__dropdown-item,
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-resize,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-footer--confirm,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .lists::-webkit-scrollbar-track,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li .typecho-label,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li .description,
+html[ws-day-night='ws-day-night'] .joe_config > form .joe_content li .description,
+html[ws-day-night='ws-day-night'] .joe_config > form .typecho-option button {
+	background: #444;
+	color: #bbb;
+}
+html[ws-day-night='ws-day-night'] .cm-container .cm-tools__dropdown::before {
+    border-bottom: 7px solid #444;
+}
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .lists {
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+}
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .lists-item {
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+html[ws-day-night='ws-day-night'] #custom-field td,
+html[ws-day-night='ws-day-night'] #custom-field td:hover {
+	border-bottom: 1px solid #444;
+	background: #333;
+}
+html[ws-day-night='ws-day-night'] .typecho-list-table td,
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .typecho-option,
+html[ws-day-night='ws-day-night'] .joe_config > form .typecho-option {
+	border-top: 1px solid #444;
+}
+html[ws-day-night='ws-day-night'] ul.token-input-list input[type='text'] {
+	border: none;
+}
+html[ws-day-night='ws-day-night'] input[type='text'],
+html[ws-day-night='ws-day-night'] textarea,
+html[ws-day-night='ws-day-night'] input[type='password'],
+html[ws-day-night='ws-day-night'] input[type='password'],
+html[ws-day-night='ws-day-night'] ul.token-input-list,
+html[ws-day-night='ws-day-night'] #upload-panel,
+html[ws-day-night='ws-day-night'] #custom-field select,
+html[ws-day-night='ws-day-night'] select,
+html[ws-day-night='ws-day-night'] .cm-mainer,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .fitem input,
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-bodyer .fitem select,
+html[ws-day-night='ws-day-night'] .dropdown-menu {
+	background: #222;
+	border: 1px solid #444;
+	color: #bbb;
+}
+html[ws-day-night='ws-day-night'] .cm-modal__wrapper-header {
+    border-bottom: 1px solid #666;
+}
+html[ws-day-night='ws-day-night'] table.typecho-list-table th {
+	padding: 10px 10px 10px;
+	border-bottom: 1px solid #666;
+}
+html[ws-day-night='ws-day-night'] table.typecho-list-table tr,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-timepicker-div,
+html[ws-day-night='ws-day-night'] #ui-datepicker-div .ui-datepicker-buttonpane {
+	border-top: 1px solid #666;
+}
+html[ws-day-night='ws-day-night'] table.typecho-list-table td {
+	border-bottom: none;
+}
+html[ws-day-night='ws-day-night'] .primary {
+	background: #467b96;
+}
+html[ws-day-night='ws-day-night'] img {
+	filter: brightness(0.5);
+}
+html[ws-day-night='ws-day-night'] .typecho-theme-list img {
+	box-shadow: none;
+}
+html[ws-day-night='ws-day-night'] .j-setting-contain > form .j-setting-content li .typecho-label {
+	border-left: 3px solid #666;
+}
+html[ws-day-night='ws-day-night'] .j-setting-contain .j-aside .logo,
+html[ws-day-night='ws-day-night'] .joe_config__aside .logo,
+html[ws-day-night='ws-day-night'] .joe_config__notice .title {
+	border-bottom: 1px solid #666;
+	color: #bbb;
+}
+.proup {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 7777;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.65);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+::selection {
+	background: #c51f1f;
+	color: #fff;
+}
+::-moz-selection {
+	background: #c51f1f;
+	color: #fff;
+}
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #ababab;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: #ededed;
+}
+body {
+	background: #f9f9f9;
+}
+.right {
+	float: right;
+}
+a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+#typecho-nav-list {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	background: #fff;
+	top: 50px;
+	width: 210px;
+	overflow: auto;
+	height: 100%;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 20px -5px rgba(158, 158, 158, 0.22);
+}
+.container {
+	width: 100%;
+	padding: 0 30px;
+}
+.typecho-head-nav .operate {
+	position: fixed;
+	width: 100%;
+	padding-right: 15px;
+	right: 0;
+	height: 50px;
+	top: 0;
+	z-index: 9999;
+	background: #6777ef;
+	text-align: right;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 40px 0 rgba(17, 58, 93, 0.1) !important;
+	-ms-box-shadow: 0 5px 40px 0 rgba(17, 58, 93, 0.1) !important;
+	box-shadow: 0 5px 40px 0 rgba(17, 58, 93, 0.1) !important;
+}
+.typecho-head-nav .operate a {
+	border: none;
+	color: #060606;
+	margin-top: 7px;
+}
+.typecho-page-title h2 a {
+	background: #6777ef;
+	color: #fff;
+}
+.main {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+.typecho-page-title {
+	margin-bottom: 20px;
+}
+.typecho-page-main {
+	border-radius: 5px;
+	padding: 15px;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 20px -5px rgba(158, 158, 158, 0.22);
+}
+.typecho-foot {
+	display: none;
+}
+#typecho-welcome {
+	border-radius: 12px;
+	background-color: #f5f5f5;
+}
+.user-info {
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+	height: 150px;
+	border: none;
+	color: #000;
+}
+.user-info a {
+	color: #020202;
+}
+.user-info img {
+	border-radius: 50%;
+	transition: 0.5s all;
+	width: 90px;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.user-info img:hover {
+	transform: rotate(360deg);
+}
+#typecho-nav-list ul:first-child {
+	border: none;
+}
+.user-nav {
+	padding-top: 30px;
+}
+.user-nav li {
+	line-height: 40px;
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	zoom: 1;
+	overflow: hidden;
+	font-size: 15px;
+	margin-top: 5px;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.user-nav li a {
+	height: 40px;
+	width: 100%;
+	display: block;
+	text-indent: 1.6em;
+}
+.user-nav li a:hover {
+	color: #6777ef;
+}
+.user-nav li a i {
+	margin-right: 5px;
+}
+.user-nav li a .fa-angle-right {
+	float: right;
+	margin-top: 12px;
+	font-size: 15px;
+	margin-right: 10px;
+}
+.user-nav li ul {
+	display: none;
+	width: 100%;
+	height: auto;
+	zoom: 1;
+	overflow: hidden;
+	background: #fff;
+	padding: 10px 0 !important;
+}
+.user-nav li ul li {
+	height: 35px;
+	line-height: 35px;
+	margin-top: 0;
+}
+.user-nav li ul li a {
+	height: 35px;
+	text-indent: 3em;
+}
+.user-nav li ul li a:hover {
+	background: #6777ef;
+	text-indent: 3.5em;
+	color: #fff;
+}
+.copy-links {
+	width: 85%;
+	margin: 20px auto 10px auto;
+}
+.copy-links p {
+	color: #fff;
+}
+.links-mian {
+	width: 100%;
+	padding: 5px;
+	overflow: hidden;
+	zoom: 1;
+	height: auto;
+	margin: 0;
+}
+.links-mian a {
+	margin: 5px;
+	padding: 6px 12px;
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	border-radius: 5px;
+	color: #6777ef;
+	border: #6777ef solid 1px;
+	white-space: nowrap;
+}
+.typecho-head-nav .operate a {
+	padding: 0 12px;
+}
+#tonav {
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+}
+#wmd-preview {
+	background: #f3f3f3;
+}
+#start-link {
+	padding: 0 0 20px;
+}
+.primary {
+	background-color: #6777ef;
+}
+.primary:hover {
+	background: #5562c1;
+}
+.popup {
+	top: 50px !important;
+}
+.typecho-login {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 40px 0 rgba(17, 58, 93, 0.1) !important;
+	opacity: 0.95;
+}
+.typecho-login-wrap {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 22%;
+	height: auto;
+}
+.typecho-login {
+	display: block;
+	padding: 15px 30px;
+	margin: 0 auto;
+}
+.typecho-login .more-link {
+	margin-top: 0;
+}
+.typecho-login h1 {
+	margin: 0.5em 0 1em;
+}
+.i-logo {
+	background: 0 0;
+	display: inline;
+	opacity: 1;
+}
+.typecho-login h1 {
+	margin: 0.5em 0 0.5em;
+}
+#cover {
+	position: fixed;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+.root {
+	display: none;
+}
+.typecho-table-wrap {
+	padding: 0;
+}
+.wmd-button-row {
+	height: auto;
+}
+.row [class*='col-'] {
+	padding: 0 5px;
+}
+.i-logo img {
+	max-width: 170px;
+}
+#custom-field textarea {
+	width: 100%;
+	min-height: 100px;
+}
+.typecho-head-nav a {
+	color: #333;
+}
+.typecho-head-nav a:focus,
+.typecho-head-nav a:hover {
+	color: #333;
+}
+#tonav a:focus,
+#tonav a:hover {
+	color: #fff;
+}
+.typecho-head-nav .operate {
+	background: #fff;
+}
+.typecho-head-nav .operate a:hover {
+	background: none;
+    color: #5562c1;
+}
+.user-nav .fa-angle-down {
+	float: right;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.welcome-board {
+	font-size: 1em;
+}
+#start-link li {
+	padding: 8px;
+	margin: 8px;
+	background: #09f;
+	text-align: center;
+}
+#start-link li:hover {
+	background: #5562c1;
+}
+#start-link li a {
+	color: #fff;
+	text-decoration: none;
+}
+table.typecho-list-table td .comment-content p {
+	max-height: 100px;
+	height: auto;
+	overflow: hidden;
+}
+@media all and (max-width: 1000px) {
+	.user-info {
+		margin-top: 50px;
+	}
+	#typecho-nav-list {
+		display: none;
+	}
+	.main,
+	.typecho-head-nav .operate {
+		width: 100%;
+	}
+}
+@media all and (max-width: 600px) {
+	.user-info {
+		display: none;
+	}
+	#typecho-nav-list {
+		padding-top: 20px;
+		width: 200px;
+	}
+	.user-nav li a {
+		text-indent: 0.5em;
+	}
+	.user-nav li ul li a {
+		text-indent: 1.5em;
+	}
+	.typecho-page-title {
+		height: auto;
+	}
+	.typecho-page-title h2 {
+		margin: 15px 0;
+	}
+	.container {
+		padding: 0 20px;
+	}
+	.typecho-page-main {
+		padding: 15px;
+	}
+	table.typecho-list-table {
+		border: 0;
+	}
+	table.typecho-list-table thead {
+		display: none;
+	}
+	table.typecho-list-table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-top: 1px solid #09f;
+	}
+	table.typecho-list-table td {
+		display: block;
+		text-align: left;
+		border-bottom: 1px dotted #ccc;
+	}
+	a.balloon-button,
+	a.balloon-button:hover {
+		background: 0 0;
+		color: #6777ef;
+	}
+	table.typecho-list-table td:last-child {
+		border-bottom: 0;
+	}
+	table.typecho-list-table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+	}
+}
+@media all and (max-width: 500px) {
+	.typecho-page-main .col-tb-4 {
+		width: 100% !important;
+	}
+	#btn-preview {
+		display: none;
+	}
+	.typecho-list-operate .search {
+		float: left;
+		margin-top: 15px;
+	}
+	#start-link li {
+		margin: 2px;
+	}
+	.typecho-table-wrap table tbody tr td:first-child {
+		float: right;
+		border-bottom: none;
+		padding: 9px 14px;
+	}
+}
+@media all and (max-width: 360px) {
+	.typecho-login {
+		width: 70%;
+	}
+}
+.menu-ul .focus a {
+	color: #6777ef;
+}
+#tonav,
+.user-nav li a,
+li,
+ul {
+	outline: 0;
+}
+.comment-avatar .avatar,
+.profile-avatar {
+	border-radius: 50%;
+	border: 1px solid #fff;
+	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.13);
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.13);
+}
+.main.main-in {
+	width: 100% !important;
+}
+.fullscreen #tab-files {
+	right: 0;
+}
+.success {
+	background: #e8ecf3;
+	color: #6777ef;
+}
+.typecho-theme-list tbody tr.current td {
+	background-color: #e8ecf3;
+}
+.typecho-theme-list img {
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.23);
+	box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.23);
+}
+.typecho-page-title h2 {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+#wstyle {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin: auto;
+}
+#wstyle .wsmain {
+	border: 1px solid #dcdcdc;
+	border-radius: 8px;
+	flex: 1;
+	width: 100%;
+	margin: auto 10px;
+}
+.wstop {
+	text-align: right;
+	font-size: 20px;
+	font-family: 楷体;
+	padding: 10px;
+}
+.wstop span:first-child {
+	float: left;
+}
+.wsbottom ul {
+	display: flex;
+	padding: 10px 0;
+}
+.wsbottom ul li {
+	list-style-type: none;
+	margin: auto;
+}
+.wsbottom ul li a {
+	text-decoration: none;
+	padding: 8px;
+}
+.wsbottom ul li a:hover {
+	background: #eeefff;
+}
+@media screen and (max-width: 768px) {
+	#wstyle {
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+	#wstyle .wsmain {
+		flex: 1;
+		flex-wrap: wrap;
+		margin: 5px 0;
+	}
+	.wsbottom ul li {
+		margin: auto 15px;
+	}
+}
