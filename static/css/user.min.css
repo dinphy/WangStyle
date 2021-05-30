@@ -169,6 +169,9 @@ html[ws-day-night='ws-day-night'] table.typecho-list-table td {
 html[ws-day-night='ws-day-night'] .primary {
 	background: #467b96;
 }
+html[ws-day-night='ws-day-night'] .cm-container .cm-mainer .cm-wrap .cm-scroller .cm-activeLine {
+    background-color: #292929;
+}
 html[ws-day-night='ws-day-night'] img {
 	filter: brightness(0.5);
 }
@@ -191,7 +194,7 @@ html[ws-day-night='ws-day-night'] .joe_config__notice .title {
 	height: 100%;
 	top: 0;
 	left: 0;
-	z-index: 7777;
+	z-index: 10000;
 	cursor: pointer;
 	background: rgba(0, 0, 0, 0.65);
 	backdrop-filter: blur(5px);
@@ -235,11 +238,11 @@ a {
 #typecho-nav-list {
 	display: none;
 	position: fixed;
-	z-index: 9999;
+	z-index: 10000;
+	top: 0;
 	left: 0;
 	background: #fff;
-	top: 50px;
-	width: 210px;
+	width: 250px;
 	overflow: auto;
 	height: 100%;
 	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
@@ -334,7 +337,7 @@ a {
 .user-nav li {
 	line-height: 40px;
 	display: block;
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 	height: auto;
 	zoom: 1;
@@ -558,7 +561,6 @@ table.typecho-list-table td .comment-content p {
 	}
 	#typecho-nav-list {
 		padding-top: 20px;
-		width: 200px;
 	}
 	.user-nav li a {
 		text-indent: 0.5em;
