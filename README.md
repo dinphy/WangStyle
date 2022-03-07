@@ -1,29 +1,31 @@
-# wangStyle
-
-> WangStyle 是一款极简的 `typecho` 后台美化插件。
+WangStyle 是一款极简的、支持暗色模式的 `typecho` 后台美化插件。
 
 ### 插件特点
 
-1. 拥有黑白两种模式
-2. 支持不同级别的用户登录显示不同的菜单
-3. 自动识别其他插件的设置添加到菜单
+1. 默认简白，支持暗色模式
+2. 不同级的用户登录显示不同的菜单
+3. 自动添加插件设置到菜单
 4. 即插即用、不修改程序文件
-5. 适配 Joe 主题V6以上的扩展版本，[Joe扩版](https://github.com/dinphy/Joe)
-6. 响应式布局，适配后台每一个页面
-7. 后台登陆界面美化，已集成随机图API
-
+5. 响应式布局，适配后台每一个页面
+6. 后台登陆界面美化
+7. 后台首页卡片样式
 
 ### 注意事项
 
 1. 本插件只针对 `Typecho` 默认的程序美化。
 2. 启用插件后，CTRL + F5 清除缓存。
-3. 启用插件后，出现空白或 `500` 错误时，请排查 `var/widget` 目录下是否存在 `menu.php` 文件，若无，请手动从官方的程序中提取后上传此处。
+3. 插件名为：WangStyle，注意区分大小写，否则500。
 
-### PC端界面
-![pc.gif][1]
+### 默认界面
+![20220307142249.png][1]
 
-### 移动端界面
-![mb.gif][2]
+### 登陆界面与暗色模式
+![pc.gif][2]
 
-  [1]: https://xwsir.cn/usr/uploads/2021/04/3065547472.gif
-  [2]: https://xwsir.cn/usr/uploads/2021/04/3987890411.gif
+### 移动端
+![mb.gif][3]
+
+
+  [1]: https://cdn.jsdelivr.net/gh/dinphy/webpic@main/xwsir/usr/uploads/2022/03/1463560908.png
+  [2]: https://cdn.jsdelivr.net/gh/dinphy/webpic@main/xwsir/usr/uploads/2022/03/1815896998.gif
+  [3]: https://cdn.jsdelivr.net/gh/dinphy/webpic@main/xwsir/usr/uploads/2022/03/2109832222.gif
