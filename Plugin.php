@@ -78,7 +78,7 @@ class WangStyle_Plugin implements Typecho_Plugin_Interface
 
         if (Typecho_Widget::widget('Widget_User')->hasLogin()) {
             //gravatar 头像源
-            define('__TYPECHO_GRAVATAR_PREFIX__', '//' . 'gravatar.bcrjl.com/avatar' . '/');
+            define('__TYPECHO_GRAVATAR_PREFIX__', '//' . 'gravatar.helingqi.com/wavatar' . '/');
             $user = Typecho_Widget::widget('Widget_User');
             $menu = Typecho_Widget::widget('Widget_Menu')->to($menu);
             $email = $user->mail;
@@ -89,7 +89,7 @@ class WangStyle_Plugin implements Typecho_Plugin_Interface
                     $qqImage = '//q1.qlogo.cn/g?b=qq&nk=' . $format . '&';
                 } else {
                     $decode = md5($lowercase);
-                    $qqImage = '//' . 'gravatar.bcrjl.com/avatar' . '/' . $decode . '?';
+                    $qqImage = '//' . 'gravatar.helingqi.com/wavatar' . '/' . $decode . '?';
                 }
             } else {
                 $qqImage = $url . 'img/user.png';
