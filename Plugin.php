@@ -94,9 +94,9 @@ class WangStyle_Plugin implements Typecho_Plugin_Interface
             } else {
                 $qqImage = $url . 'img/user.png';
             }
-            $head = $head . '<link rel="stylesheet" href="' . $url . 'css/admin.css">
+            $head = $head . '<link rel="stylesheet" href="' . $url . 'css/admin.css?v=6.0.3">
                 <link rel="stylesheet" href="//at.alicdn.com/t/font_1159885_m16xrs3st3k.css">
-                <script src="' . $url . 'js/admin.js"></script>
+                <script src="' . $url . 'js/admin.js?v=6.0.2"></script>
                 <script>
                     var UserLink="' . Helper::options()->adminUrl . '/profile.php";
                     var UserPic="' . $qqImage . '";

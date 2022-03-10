@@ -48,48 +48,29 @@ document.addEventListener('DOMContentLoaded', () => {
 		if ('网站概要' == MenuTitle) {
 			$('.typecho-page-title h2').hide();
 		}
-		if ('插件管理' == MenuTitle) {
-			$('.typecho-table-wrap tr').find('td:eq(0)').attr('style', 'float:none;padding:10px');
-			$('.typecho-list-table tr').find('td:eq(0)').attr('data-label', '名称：');
-			$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '描述：');
-			$('.typecho-list-table tr').find('td:eq(2)').attr('data-label', '版本：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '作者：');
-			$('.typecho-list-table tr').find('td:eq(4)').attr('data-label', '操作：');
+		if($(window).width() < 575){
+			if ('插件管理' == MenuTitle) {
+				$('.typecho-table-wrap tr').find('td:eq(0)').css({'float': 'none','padding':'10px'});
+				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '描述：');
+				$('.typecho-list-table tr').find('td:eq(2)').hide();
+				$('.typecho-list-table tr').find('td:eq(4)').css({'display':'block','font-size':'1rem'});
+			}
+			if ('管理文章' == MenuTitle || '管理独立页面' == MenuTitle) {
+				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '评论：');
+			}
+			if ('管理评论' == MenuTitle) {
+				$('.typecho-list-table td').find('td:eq(2)').css('display','block').attr('data-label', '评论者：');
+				$('.typecho-list-table tr').find('td:eq(3)').css('display','block').attr('data-label', '发表于：');
+			}
+			if ('管理分类' == MenuTitle) {
+				$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '文章数：');
+			}
+			if ('管理用户' == MenuTitle) {
+				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '文章数：');
+				$('.typecho-list-table tr').find('td:eq(4)').css('display','block');
+			}
 		}
-		if ('管理文章' == MenuTitle) {
-			$('.typecho-list-table tr').find('th:eq(1)').text('评论');
-			$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '评论：');
-			$('.typecho-list-table tr').find('td:eq(2)').attr('data-label', '标题：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '作者：');
-			$('.typecho-list-table tr').find('td:eq(4)').attr('data-label', '分类：');
-			$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '日期：');
-		}
-		if ('管理页面' == MenuTitle) {
-			$('.typecho-list-table tr').find('th:eq(1)').text('评论');
-			$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '评论：');
-			$('.typecho-list-table tr').find('td:eq(2)').attr('data-label', '标题：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '缩略名：');
-			$('.typecho-list-table tr').find('td:eq(4)').attr('data-label', '作者：');
-			$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '日期：');
-		}
-		if ('管理评论' == MenuTitle) {
-			$('.typecho-list-table td').find('td:eq(2)').attr('data-label', '评论者：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '发表于：');
-		}
-		if ('管理分类' == MenuTitle) {
-			$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '名称：');
-			$('.typecho-list-table tr').find('td:eq(2)').attr('data-label', '子分类：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '缩略名：');
-			$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '文章数：');
-		}
-		if ('管理用户' == MenuTitle) {
-			$('.typecho-list-table tr').find('th:eq(1)').text('文章数');
-			$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '文章数：');
-			$('.typecho-list-table tr').find('td:eq(2)').attr('data-label', '用户名：');
-			$('.typecho-list-table tr').find('td:eq(3)').attr('data-label', '昵称：');
-			$('.typecho-list-table tr').find('td:eq(4)').attr('data-label', '邮件：');
-			$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '用户组：');
-		}
+
 		/* 暗色模式 */
 		if (localStorage.getItem('dark-mode')) {
 			$('html').attr('dark-mode', 'dark-mode');

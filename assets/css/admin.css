@@ -7,7 +7,6 @@ html[dark-mode='dark-mode'] .typecho-option-tabs li.active a,
 html[dark-mode='dark-mode'] .typecho-option-tabs li a:hover,
 html[dark-mode='dark-mode'] .typecho-option-tabs li a:hover,
 html[dark-mode='dark-mode'] .wmd-button-row li:hover,
-html[dark-mode='dark-mode'] .typecho-list-table tbody tr:hover td,
 html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list,
 html[dark-mode='dark-mode'] .typecho-pager li.current a,
 html[dark-mode='dark-mode'] #typecho-welcome,
@@ -30,6 +29,7 @@ html[dark-mode='dark-mode'] #typecho-nav-list,
 html[dark-mode='dark-mode'] #custom-field,
 html[dark-mode='dark-mode'] .typecho-table-wrap,
 html[dark-mode='dark-mode'] .typecho-page-title h2 a,
+html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list li.checked,
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-calendar a,
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-current,
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-close,
@@ -83,6 +83,8 @@ html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-today a,
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-today a:hover,
 html[dark-mode='dark-mode'] .btn,
 html[dark-mode='dark-mode'] .dropdown-menu a:hover,
+html[dark-mode='dark-mode'] .typecho-list-table tr:hover td,
+html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list li:hover,
 html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .typecho-label,
 html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .description,
 html[dark-mode='dark-mode'] .joe_config > form .joe_content li .description,
@@ -95,7 +97,6 @@ html[dark-mode='dark-mode'] #custom-field td:hover {
 	border-bottom: 1px solid #444;
 	background: #333;
 }
-html[dark-mode='dark-mode'] .typecho-list-table td,
 html[dark-mode='dark-mode'] .j-setting-contain > form .typecho-option,
 html[dark-mode='dark-mode'] .joe_config > form .typecho-option {
 	border-top: 1px solid #444;
@@ -120,13 +121,14 @@ html[dark-mode='dark-mode'] .typecho-list-table th {
 	padding: 10px 10px 10px;
 	border-bottom: 1px solid #666;
 }
-html[dark-mode='dark-mode'] .typecho-list-table tr,
+
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-timepicker-div,
 html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-buttonpane {
 	border-top: 1px solid #666;
 }
 html[dark-mode='dark-mode'] .typecho-list-table td {
 	border-bottom: none;
+	border-top: 1px solid #666;
 }
 html[dark-mode='dark-mode'] .primary {
 	background: #467b96;
@@ -175,6 +177,13 @@ a {
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
+}
+#custom-field {
+	padding: 0;
+}
+.comment-content img {
+	height: 100px;
+	object-fit: fill;
 }
 .main {
 	width: 100%;
@@ -577,16 +586,29 @@ ul {
 	}
 	.typecho-list-table tr {
 		display: block;
+		position: relative;
 		margin-bottom: 10px;
-		border-top: 1px solid #09f;
+		border-radius: 5px;
+		background: rgb(158 158 158 / 22%);
+	}
+	.typecho-list-table tr:hover {
+		border-radius: 5px;
+	}
+	html[dark-mode='dark-mode'] .typecho-list-table td{
+		border-top: none;
 	}
 	.typecho-list-table td {
 		display: block;
 		text-align: left;
-		border-bottom: 1px dotted #ccc;
+		border-top: none;
+		height: auto!important;
 	}
-	.typecho-list-table td:last-child {
-		border-bottom: 0;
+	.typecho-list-table td:nth-child(3) {
+		border-top: 1px dotted #666!important;
+	}
+	.typecho-list-table td:nth-child(4),
+	.typecho-list-table td:nth-child(5) {
+		display: none;
 	}
 	.typecho-list-table td:before {
 		content: attr(data-label);
