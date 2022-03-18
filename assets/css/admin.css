@@ -1,0 +1,669 @@
+@charset "utf-8";
+html[dark-mode='dark-mode'] body,
+html[dark-mode='dark-mode'] .wsbottom ul li a:hover,
+html[dark-mode='dark-mode'] .category-option ul,
+html[dark-mode='dark-mode'] .typecho-option-tabs li.current a,
+html[dark-mode='dark-mode'] .typecho-option-tabs li.active a,
+html[dark-mode='dark-mode'] .typecho-option-tabs li a:hover,
+html[dark-mode='dark-mode'] .typecho-option-tabs li a:hover,
+html[dark-mode='dark-mode'] .wmd-button-row li:hover,
+html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list,
+html[dark-mode='dark-mode'] .typecho-pager li.current a,
+html[dark-mode='dark-mode'] #typecho-welcome,
+html[dark-mode='dark-mode'] #ui-datepicker-div,
+html[dark-mode='dark-mode'] .primary:hover,
+html[dark-mode='dark-mode'] .typecho-edit-theme .current,
+html[dark-mode='dark-mode'] .typecho-post-area #slug,
+html[dark-mode='dark-mode'] .j-setting-contain .j-aside,
+html[dark-mode='dark-mode'] .typecho-list-table tbody tr.checked td,
+html[dark-mode='dark-mode'] .joe_config__aside,
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li .typecho-label {
+	background: #222;
+	color: #bbb;
+	box-shadow: none;
+}
+html[dark-mode='dark-mode'] .wrap .card,
+html[dark-mode='dark-mode'] .typecho-page-main,
+html[dark-mode='dark-mode'] .typecho-head-nav .operate,
+html[dark-mode='dark-mode'] #typecho-nav-list,
+html[dark-mode='dark-mode'] #custom-field,
+html[dark-mode='dark-mode'] .typecho-table-wrap,
+html[dark-mode='dark-mode'] .typecho-page-title h2 a,
+html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list li.checked,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-calendar a,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-current,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-close,
+html[dark-mode='dark-mode'] .typecho-theme-list tbody tr.current td,
+html[dark-mode='dark-mode'] .j-setting-contain .j-aside .j-setting-tab li:hover,
+html[dark-mode='dark-mode'] .j-setting-contain .j-setting-notice,
+html[dark-mode='dark-mode'] .j-setting-contain > form,
+html[dark-mode='dark-mode'] .j-setting-contain > form .typecho-option,
+html[dark-mode='dark-mode'] .j-setting-contain .j-setting-notice ol,
+html[dark-mode='dark-mode'] .j-setting-contain .j-setting-notice ul,
+html[dark-mode='dark-mode'] .user-info,
+html[dark-mode='dark-mode'] .joe_config__notice,
+html[dark-mode='dark-mode'] .joe_config > form,
+html[dark-mode='dark-mode'] .joe_config__aside .tabs .item:hover,
+html[dark-mode='dark-mode'] .joe_config > form .typecho-option {
+	background: #3333338c;
+	color: #bbb;
+	box-shadow: none;
+}
+html[dark-mode='dark-mode'] a,
+html[dark-mode='dark-mode'] .typecho-head-nav .operate a,
+html[dark-mode='dark-mode'] #typecho-nav-list a {
+	color: #bbb;
+}
+html[dark-mode='dark-mode'] .wrap .shortcut a:hover,
+html[dark-mode='dark-mode'] .menu-ul .focus a,
+html[dark-mode='dark-mode'] #typecho-nav-list a:hover {
+	color: #fff !important;
+}
+html[dark-mode='dark-mode'] #wstyle .wsmain,
+html[dark-mode='dark-mode'] .category-option ul,
+html[dark-mode='dark-mode'] .typecho-option-tabs a,
+html[dark-mode='dark-mode'] #ui-datepicker-div,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li select,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li textarea,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li input[type='text'],
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li,
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li textarea,
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li input[type='text'],
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li select {
+	border: 1px solid #444;
+}
+html[dark-mode='dark-mode'] .success,
+html[dark-mode='dark-mode'] .wrap .shortcut a i,
+html[dark-mode='dark-mode'] .wrap .total .num,
+html[dark-mode='dark-mode'] a.balloon-button,
+html[dark-mode='dark-mode'] .wmd-edittab a.active,
+html[dark-mode='dark-mode'] #wmd-preview,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-today a,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-today a:hover,
+html[dark-mode='dark-mode'] .btn,
+html[dark-mode='dark-mode'] .dropdown-menu a:hover,
+html[dark-mode='dark-mode'] .typecho-list-table tr:hover td,
+html[dark-mode='dark-mode'] .typecho-page-main ul.tag-list li:hover,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .typecho-label,
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .description,
+html[dark-mode='dark-mode'] .joe_config > form .joe_content li .description,
+html[dark-mode='dark-mode'] .joe_config > form .typecho-option button {
+	background: #444;
+	color: #bbb;
+}
+html[dark-mode='dark-mode'] #custom-field td,
+html[dark-mode='dark-mode'] #custom-field td:hover {
+	border-bottom: 1px solid #444;
+	background: #333;
+}
+html[dark-mode='dark-mode'] .j-setting-contain > form .typecho-option,
+html[dark-mode='dark-mode'] .joe_config > form .typecho-option {
+	border-top: 1px solid #444;
+}
+html[dark-mode='dark-mode'] ul.token-input-list input[type='text'] {
+	border: none;
+}
+html[dark-mode='dark-mode'] input[type='text'],
+html[dark-mode='dark-mode'] textarea,
+html[dark-mode='dark-mode'] input[type='password'],
+html[dark-mode='dark-mode'] input[type='email'],
+html[dark-mode='dark-mode'] ul.token-input-list,
+html[dark-mode='dark-mode'] #upload-panel,
+html[dark-mode='dark-mode'] #custom-field select,
+html[dark-mode='dark-mode'] select,
+html[dark-mode='dark-mode'] .dropdown-menu {
+	background: #222;
+	border: 1px solid #444;
+	color: #bbb;
+}
+html[dark-mode='dark-mode'] .typecho-list-table th {
+	padding: 10px 10px 10px;
+	border-bottom: 1px solid #666;
+}
+
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-timepicker-div,
+html[dark-mode='dark-mode'] #ui-datepicker-div .ui-datepicker-buttonpane {
+	border-top: 1px solid #666;
+}
+html[dark-mode='dark-mode'] .typecho-list-table td {
+	border-bottom: none;
+	border-top: 1px solid #666;
+}
+html[dark-mode='dark-mode'] .primary {
+	background: #467b96;
+}
+html[dark-mode='dark-mode'] img {
+	filter: brightness(0.8);
+}
+html[dark-mode='dark-mode'] .typecho-theme-list img {
+	box-shadow: none;
+}
+html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .typecho-label {
+	border-left: 3px solid #666;
+}
+html[dark-mode='dark-mode'] .wrap .card .card-header,
+html[dark-mode='dark-mode'] .j-setting-contain .j-aside .logo,
+html[dark-mode='dark-mode'] .joe_config__aside .logo,
+html[dark-mode='dark-mode'] .joe_config__notice .title {
+	border-bottom: 1px solid #666;
+	color: #bbb;
+}
+html[dark-mode='dark-mode'] .main {
+    background-image: url(../img/nightbg.png);
+}
+::selection {
+	background: #c51f1f;
+	color: #fff;
+}
+::-moz-selection {
+	background: #c51f1f;
+	color: #fff;
+}
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #ababab;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: #ededed;
+}
+a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+#custom-field {
+	padding: 0;
+}
+.comment-content img {
+	height: 100px;
+	object-fit: fill;
+}
+.main {
+    width: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+	background: #ffffff;
+    background-image: url(../img/adminbg.jpg);
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.typecho-table-wrap {
+    background: #fff0;
+}
+.typecho-list-table th {
+    border-bottom: 2px solid #f2fff757;
+    border-radius: 5px;
+}
+input[type=text], input[type=password], input[type=email], textarea {
+    background: #ffffff91;
+}
+.category-option ul {
+    background-color: #ffffff91;
+}
+ul.token-input-list {
+    background-color: #ffffff91;
+}
+#custom-field {
+    background: #fff0;
+}
+.typecho-page-main ul.tag-list {
+    background-color: #fff0;
+}
+li.vote div.vote-inner {
+    background: #ffffff91;
+}
+li.vote div.vote-inner::before {
+    border-color: transparent #ffffff91 transparent transparent;
+}
+.proup {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.65);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+.typecho-head-nav .operate {
+    position: fixed;
+    width: 100%;
+    padding-right: 15px;
+    right: 0;
+    height: 50px;
+    top: 0;
+    z-index: 9999;
+    background: #dee6e7a3;
+    backdrop-filter: blur(3px);
+    text-align: right;
+    box-shadow: 0 0 20px -5px rgb(158 158 158 / 22%);
+}
+.typecho-head-nav .operate a {
+	border: none;
+	color: #060606;
+	margin-top: 7px;
+	padding: 0 12px;
+}
+.typecho-head-nav .operate a:hover {
+	background: none;
+	color: #5562c1;
+}
+.typecho-head-nav a,
+.typecho-head-nav button.menu-bar {
+	padding: 0;
+}
+.typecho-head-nav a {
+	color: #333;
+}
+.typecho-head-nav a:focus,
+.typecho-head-nav a:hover {
+	color: #333;
+}
+.typecho-list-table {
+	table-layout: auto;
+	border: 0;
+}
+.typecho-list-table td .comment-content p {
+	max-height: 100px;
+	height: auto;
+	overflow: hidden;
+}
+#typecho-nav-list ul:first-child {
+	border: none;
+}
+.typecho-page-title h2 a {
+	background: #6777ef;
+	color: #fff;
+}
+.typecho-page-title {
+	margin-bottom: 20px;
+}
+.typecho-page-main {
+    border-radius: 5px;
+    padding: 15px;
+    background: #dee6e7a3;
+    box-shadow: 0 0 20px -5px rgb(158 158 158 / 22%);
+    backdrop-filter: blur(3px);
+}
+.typecho-foot {
+	display: none;
+}
+#typecho-welcome {
+	border-radius: 12px;
+	background-color: #f5f5f500;
+}
+#typecho-nav-list {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    top: 15px;
+    left: 8px;
+    background: #ffffffa8;
+    width: 180px;
+    overflow: auto;
+    height: 95%;
+    box-shadow: 0 0 20px -5px rgb(158 158 158 / 22%);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+.typecho-theme-list tbody tr.current td {
+	background-color: #e8ecf3;
+}
+.typecho-theme-list img {
+	border-radius: 4px;
+	box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.23);
+}
+.typecho-page-title h2 {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.user-info {
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	border-bottom: 1px solid #bbb;
+}
+.user-info img {
+	border-radius: 50%;
+	transition: 0.5s all;
+	width: 72px;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.user-info img:hover {
+	transform: rotate(360deg);
+}
+.user-nav {
+	margin-left: 3rem;
+}
+.user-nav li {
+	line-height: 40px;
+	overflow: hidden;
+	font-size: 15px;
+}
+.user-nav li a {
+	height: 40px;
+	display: block;
+}
+.user-nav li a:first-child {
+	padding-right: 15px;
+}
+.user-nav li a:hover {
+	color: #d2136b;
+}
+.user-nav li a i:first-child {
+	padding-right: 8px;
+}
+.user-nav li a i:last-child {
+	float: right;
+	padding-right: 1rem;
+}
+.user-nav li ul {
+	display: none;
+	height: auto;
+	overflow: hidden;
+}
+.user-nav li ul li {
+	height: 35px;
+	line-height: 35px;
+	margin-left: 1.5rem;
+}
+.user-nav li ul li a {
+	height: 35px;
+}
+.user-nav li ul li.return {
+	cursor: pointer;
+}
+.copy-links {
+	width: 85%;
+	margin: 20px auto 10px auto;
+}
+.copy-links p {
+	color: #fff;
+}
+.links-mian {
+	width: 100%;
+	padding: 5px;
+	overflow: hidden;
+	zoom: 1;
+	height: auto;
+	margin: 0;
+}
+.links-mian a {
+	margin: 5px;
+	padding: 6px 12px;
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	border-radius: 5px;
+	color: #6777ef;
+	border: #6777ef solid 1px;
+	white-space: nowrap;
+}
+#tonav {
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+}
+#wmd-preview {
+	background: #f3f3f3;
+}
+#start-link {
+	padding: 0 0 20px;
+}
+.primary {
+	background-color: #6777ef;
+}
+.primary:hover {
+	background: #5562c1;
+}
+.popup {
+	top: 50px !important;
+}
+.root {
+	display: none;
+}
+.typecho-table-wrap {
+	padding: 0;
+}
+.wmd-button-row {
+	height: auto;
+}
+.row [class*='col-'] {
+	padding: 0 5px;
+}
+.i-logo img {
+	max-width: 170px;
+}
+#custom-field textarea {
+	width: 100%;
+	min-height: 100px;
+}
+#tonav a:focus,
+#tonav a:hover {
+	color: #fff;
+}
+.welcome-board {
+	font-size: 1em;
+}
+#start-link li {
+	padding: 8px;
+    margin: 8px;
+    background: #6777ef;
+    text-align: center;
+    border-radius: 5px;
+}
+#start-link li:hover {
+	background: #5562c1;
+}
+#start-link li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu-ul .focus a {
+	color: #6777ef;
+}
+#tonav,
+.user-nav li a,
+li,
+ul {
+	outline: 0;
+}
+.comment-avatar .avatar,
+.profile-avatar {
+	border-radius: 50%;
+	border: 1px solid #fff;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.13);
+}
+.main.main-in {
+	width: 100% !important;
+}
+.fullscreen #tab-files {
+	right: 0;
+}
+.success {
+	background: #e8ecf3;
+	color: #6777ef;
+}
+.wrap {
+	width: 100%;
+}
+.wrap .row {
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+.wrap .card {
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 20px -5px rgba(158, 158, 158, 0.22);
+	margin: 10px 0;
+}
+.wrap .card .card-header {
+	padding: 8px;
+	border-bottom: 1px solid #ebeef5;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: 600;
+}
+.wrap .card .card-body {
+	padding: 10px;
+	min-height: 220px;
+	box-sizing: content-box;
+}
+.wrap .total .num {
+	padding: 10px 15px;
+	background-color: #f8f8f8;
+	color: #666;
+	border-radius: 2px;
+	text-decoration: none;
+	margin: 10px;
+	cursor: pointer;
+}
+.wrap .total h3 {
+	font-weight: 400;
+	padding-bottom: 10px;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+.wrap .total span {
+	margin: 0;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 400;
+	color: #009688;
+}
+.wrap .shortcut a {
+	display: block;
+	padding: 10px 15px;
+	color: #666;
+	border-radius: 2px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.wrap .shortcut a:hover {
+	color: #6777ef;
+}
+.wrap .shortcut a i {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 30px;
+	color: #009688;
+	background-color: #f8f8f8;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+.wrap .shortcut cite {
+	position: relative;
+	top: 2px;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+}
+@media all and (max-width: 575px) {
+	.container {
+		padding: 0 20px;
+	}
+	a.balloon-button,
+	a.balloon-button:hover {
+		background: 0 0;
+		color: #6777ef;
+	}
+	.wrap .card:last-child {
+		margin-top: 0;
+	}
+	.user-info img {
+		width: 48px;
+	}
+	.user-nav li a {
+		text-indent: 0.5em;
+	}
+	.typecho-head-nav {
+		bottom: auto;
+	}
+	#typecho-nav-list {
+		padding-top: 20px;
+	}
+	.typecho-page-main {
+		box-shadow: none;
+	}
+	.typecho-page-title {
+		height: auto;
+	}
+	.typecho-page-title h2 {
+		margin: 15px 0;
+	}
+	.typecho-list-table thead {
+		display: none;
+	}
+	.typecho-list-operate .search {
+		text-align: right;
+	}
+	.typecho-list-table tr {
+		display: block;
+		position: relative;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		background: rgb(158 158 158 / 22%);
+	}
+	.typecho-list-table tr:hover {
+		border-radius: 5px;
+	}
+	html[dark-mode='dark-mode'] .typecho-list-table td{
+		border-top: none;
+	}
+	.typecho-list-table td {
+		display: block;
+		text-align: left;
+		border-top: none;
+		height: auto!important;
+	}
+	.typecho-list-table td:nth-child(3) {
+		border-top: 1px dotted #666!important;
+	}
+	.typecho-list-table td:nth-child(4),
+	.typecho-list-table td:nth-child(5) {
+		display: none;
+	}
+	.typecho-list-table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+	}
+	.typecho-table-wrap table tbody tr td:first-child {
+		float: right;
+		border-bottom: none;
+	}
+}

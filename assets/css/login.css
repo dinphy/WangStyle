@@ -1,0 +1,40 @@
+.body-100 {
+	background: #ffffff;
+    background-image: url(../img/loginbg.jpg);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+    z-index: -1;
+}
+.typecho-login {
+	display: block;
+	padding: 15px 30px;
+	margin: 0 auto;
+	background: #ffffff9c;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #ccc;
+	opacity: 0.95;
+}
+.typecho-login-wrap {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 22%;
+	height: auto;
+}
+.typecho-login .more-link {
+	margin-top: 0;
+}
+.typecho-login h1 {
+	margin: 0.5em 0 1em;
+}
+.i-logo:hover,
+.i-logo-s:hover {
+	opacity: .9;
+}
