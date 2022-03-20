@@ -89,7 +89,7 @@ html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .typ
 html[dark-mode='dark-mode'] .j-setting-contain > form .j-setting-content li .description,
 html[dark-mode='dark-mode'] .joe_config > form .joe_content li .description,
 html[dark-mode='dark-mode'] .joe_config > form .typecho-option button {
-	background: #444;
+	background: #4440;
 	color: #bbb;
 }
 html[dark-mode='dark-mode'] #custom-field td,
@@ -518,7 +518,7 @@ ul {
 .wrap .card {
 	padding: 10px;
 	border-radius: 5px;
-	background: #fff;
+	background: #dee6e7a3;
 	box-shadow: 0 0 20px -5px rgba(158, 158, 158, 0.22);
 	margin: 10px 0;
 }
@@ -536,12 +536,13 @@ ul {
 }
 .wrap .total .num {
 	padding: 10px 15px;
-	background-color: #f8f8f8;
+	background-color: #ffffff00;
 	color: #666;
 	border-radius: 2px;
 	text-decoration: none;
 	margin: 10px;
 	cursor: pointer;
+	text-align: center;
 }
 .wrap .total h3 {
 	font-weight: 400;
@@ -577,7 +578,7 @@ ul {
 	border-radius: 2px;
 	font-size: 30px;
 	color: #009688;
-	background-color: #f8f8f8;
+	background-color: #ffffff00;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 }
