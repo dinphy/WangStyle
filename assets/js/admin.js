@@ -48,29 +48,35 @@ document.addEventListener('DOMContentLoaded', () => {
 		if ('网站概要' == MenuTitle) {
 			$('.typecho-page-title h2').hide();
 		}
-		if($(window).width() < 575){
+		if ($(window).width() < 575) {
 			if ('插件管理' == MenuTitle) {
-				$('.typecho-table-wrap tr').find('td:eq(0)').css({'float': 'none','padding':'10px'});
+				$('.typecho-table-wrap tr').find('td:eq(0)').css({ float: 'none', padding: '10px' });
 				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '描述：');
 				$('.typecho-list-table tr').find('td:eq(2)').hide();
-				$('.typecho-list-table tr').find('td:eq(4)').css({'display':'block','font-size':'1rem'});
+				$('.typecho-list-table tr').find('td:eq(4)').css({ display: 'block', 'font-size': '1rem' });
 			}
 			if ('管理文章' == MenuTitle || '管理独立页面' == MenuTitle) {
 				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '评论：');
 			}
 			if ('管理评论' == MenuTitle) {
-				$('.typecho-list-table td').find('td:eq(2)').css('display','block').attr('data-label', '评论者：');
-				$('.typecho-list-table tr').find('td:eq(3)').css('display','block').attr('data-label', '发表于：');
+				$('.typecho-list-table td').find('td:eq(2)').css('display', 'block').attr('data-label', '评论者：');
+				$('.typecho-list-table tr').find('td:eq(3)').css('display', 'block').attr('data-label', '发表于：');
 			}
 			if ('管理分类' == MenuTitle) {
 				$('.typecho-list-table tr').find('td:eq(5)').attr('data-label', '文章数：');
 			}
 			if ('管理用户' == MenuTitle) {
 				$('.typecho-list-table tr').find('td:eq(1)').attr('data-label', '文章数：');
-				$('.typecho-list-table tr').find('td:eq(4)').css('display','block');
+				$('.typecho-list-table tr').find('td:eq(4)').css('display', 'block');
 			}
 		}
-
+		/* 显示canvas 图片 */
+		$('tbody tr .comment-content p').each(function (i, item) {
+			let str = $(item).html();
+			if (!/\{!\{.*\}!\}/.test(str)) return;
+			str = str.replace(/{!{/, '').replace(/}!}/, '');
+			$(item).html('<img src="' + str + '" />');
+		});
 		/* 暗色模式 */
 		if (localStorage.getItem('dark-mode')) {
 			$('html').attr('dark-mode', 'dark-mode');

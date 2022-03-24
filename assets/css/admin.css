@@ -594,17 +594,17 @@ ul {
 	.typecho-list-table tr:hover {
 		border-radius: 5px;
 	}
-	html[dark-mode='dark-mode'] .typecho-list-table td{
+	html[dark-mode='dark-mode'] .typecho-list-table td {
 		border-top: none;
 	}
 	.typecho-list-table td {
 		display: block;
 		text-align: left;
 		border-top: none;
-		height: auto!important;
+		height: auto !important;
 	}
 	.typecho-list-table td:nth-child(3) {
-		border-top: 1px dotted #666!important;
+		border-top: 1px dotted #666 !important;
 	}
 	.typecho-list-table td:nth-child(4),
 	.typecho-list-table td:nth-child(5) {
